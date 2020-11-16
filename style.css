@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #808080;
+    font-family: 'Grandstander', Helvetica, sans-serif, cursive;
+}
+.contenedor{
+    width: 50%;
+    margin: auto auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    padding-right: 20px;
+}
+.main{
+    display: flex;
+    padding: 10px;
+}
+.formulario input{
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #808080;
+    font-family: 'Grandstander', Helvetica, sans-serif, cursive;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.footer button{
+    font-family: 'Grandstander', Helvetica, sans-serif, cursive;
+    padding: 10px;
+}
